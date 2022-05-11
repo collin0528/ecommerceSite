@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    height: 30em;
+}
+nav{
+    position: sticky;
+    top: 0%;
+    background: black;
+    color: white;
+    height: 5.5em;
+}
+
+#login{
+    position: absolute;
+    right: 20%;
+    top: 25%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fbf8f8;
+}
+#search{
+    position: absolute;
+    right: 45%;
+    top: 30%;
+    width: 10%;
+    height: 2.5em;
+    border-radius: 15px;
+    text-align: center;
+    background: #f9f7f7c9;
+    border: none;
+    color: black;
+}
+h3{
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    letter-spacing: 2px;
+    color: white;   
+}
+
+sup{
+    color: #0bf942;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;   
+}
+
+#blinker{
+    color: #ec0b0b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    animation: blink 2s   ease-in infinite;
+  }
+  
+  @keyframes blink{
+    50%{
+        opacity: 0;
+    }
+  }
+
+
+footer{
+    position: absolute;
+    bottom: -100%;
+    background: #7cbc8bc5;
+    width: 100%;
+    height: 6em;
+
+}
+
+
+.container{
+    width: 80%;
+    height: 40em;
+    position: absolute;
+    top: 20%;
+}
+#logbtn{
+    color: #0f0e0ef6;
+    font-weight: 600;
+    position: relative;
+    left: 40%;
+    top: 7%;
+    background: #0c90c5;
+    height: 2.5em;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+.wrapper img{
+    position: relative;
+    left: 40%;
+   
+}
+
+.wrapper{
+    width: 70%;
+    height: 40em;
+    background: #eceaea;
+    margin: auto;
+    position: relative;
+   top: 10%;
+    
+}
+
+form{
+    display: inline-flex;
+    width: 100%;
+    
+}
+
+.collins{
+    width: 80%;
+    position: absolute;
+    right: 12%;
+    background-color: #b1ba34ae;
+    height: 15em;
+    
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 10%;
+    
+  }
+  input:hover{
+      opacity: 0.3;
+  }
+  #regbtn{
+      width: 20%;
+      border-radius: 10px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      background: #056991;
+      cursor: pointer;
+      position: absolute;
+      left: 30%;
+      bottom: 10%;
+      height: 2.7em;
+
+  }
+  #regbtn:hover{
+      opacity: 0.5;
+      color: beige;
+  }
+
+  #forgot{
+     position: absolute;
+     right: 40%;
+     bottom:-7%;
+     
+  }
